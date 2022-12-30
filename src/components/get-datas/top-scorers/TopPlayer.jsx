@@ -8,6 +8,7 @@ const TopPlayer = ({ player }) => {
         <NavLink to={`/player/${ player.id }`}>
             <span>{ player.name } (<span>{ player.firstname } { player.lastname }</span>)</span>
             <span>{ player.age }</span>
+            <img src={ player.photo} alt="" />
         </NavLink>
     )
 }
