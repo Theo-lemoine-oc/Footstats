@@ -13,9 +13,10 @@ export const Navbar = () => {
 
                 <div className='text-lg'>
                     <NavLink to="/" className="mr-8 hover:underline">Accueil</NavLink>
+                    <NavLink to="/players" className="mr-8 hover:underline">Joueurs</NavLink>
+                    <NavLink to="/" className="mr-8 hover:underline">Clubs</NavLink>
                     <NavLink to="/" className="mr-8 hover:underline">Ligues</NavLink>
-                    <NavLink to="/" className="mr-8 hover:underline">Championnats</NavLink>
-                    <NavLink to="/" className="hover:underline">Joueurs</NavLink>
+                    <NavLink to="/" className="hover:underline">Championnats</NavLink>
                 </div>
             </div>
             

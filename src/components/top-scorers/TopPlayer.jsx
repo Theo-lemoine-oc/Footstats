@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const TopPlayer = ({ player }) => {
+export const TopPlayer = ({ player }) => {
     console.log(player)
 
     return (
