@@ -5,7 +5,9 @@ import { MainTitle } from '../components/utils/MainTitle';
 
 
 function Players() {
-  const {topScorers, isLoading, hasError} = useTopScorersL1();
+  const { topScorers, isLoading, hasError } = useTopScorersL1();
+
+  console.log(isLoading)
 
   if(isLoading) {
     return <div>Loading..</div>

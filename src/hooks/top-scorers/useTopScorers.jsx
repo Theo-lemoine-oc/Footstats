@@ -31,10 +31,9 @@ export const useTopScorersL1 = () => {
     fetchTopScorersL1();
   }, []);
 
-
-  return (
+  return {
     topScorers,
     isLoading,
     hasError
-  )
+  }
 }
