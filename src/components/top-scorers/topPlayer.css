@@ -1,0 +1,8 @@
+span,
+a div {
+    padding: .5rem 0;
+}
+
+.classement span {
+    font-weight: 600;
+}
