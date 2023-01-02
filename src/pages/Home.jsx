@@ -4,10 +4,9 @@ import { Paragraph } from '../components/utils/Paragraph';
 import BannerImg from '../assets/img/footstats-hero.png';
 
 function Home() {
-
   return (
     <section className='bg-gray-200'>
-      <div className='flex flex-col tablet:flex-row pt-8 md:py-0 max-w-[80%] mx-auto'>
+      <div className='flex flex-col tablet:flex-row pt-8 max-w-[80%] mx-auto'>
         <div className='flex flex-col justify-center text-center tablet:w-1/2 tablet:text-left'>
           <MainTitle content="Gardez l'œil sur le football du moment" />
           <Paragraph content=

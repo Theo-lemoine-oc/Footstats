@@ -1,0 +1,8 @@
+.overlay {
+    @apply absolute left-0 right-0 bottom-0 h-full;
+    background: linear-gradient(0deg, rgba(0,0,0,0.4990371148459384) 0%, rgba(0,0,0,0.3477766106442577) 50%, rgba(0,0,0,0) 100%);
+}
+
+a.card:hover img {
+    transform: scale(1.02);
+}

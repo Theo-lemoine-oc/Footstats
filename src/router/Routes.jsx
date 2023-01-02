@@ -5,7 +5,9 @@ import { Navbar } from "../components/header/navbar/Navbar.jsx";
 import Home from "../pages/Home.jsx";
 import Players from "../pages/Players.jsx";
 import Error from "../pages/Error.jsx";
-import TopScorers from "../pages/ranking/TopScorers.jsx";
+import TopScorersL1 from "../pages/ranking/TopScorersL1.jsx";
+import TopScorersChampionsLeague from "../pages/ranking/TopScorersChampionsLeague.jsx";
+import TopScorersPremierLeague from "../pages/ranking/TopScorersPremierLeague.jsx";
 
 
 export const RoutesPage = () => {
@@ -21,7 +23,9 @@ export const RoutesPage = () => {
                 <Route path="/players" element={<Players />} />
                 
                 {/* Ranking players */}
-                <Route path="/ranking/topscorers" element={<TopScorers />} />
+                <Route path="/ranking/ligue-1-uber-eats" element={<TopScorersL1 />} />
+                <Route path="/ranking/champions-league" element={<TopScorersChampionsLeague />} />
+                <Route path="/ranking/premier-league" element={<TopScorersPremierLeague />} />
 
                 {/* 404 page */}
                 <Route path="*" element={<Error />} />
